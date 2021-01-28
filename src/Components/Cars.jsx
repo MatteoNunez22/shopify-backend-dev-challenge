@@ -8,7 +8,7 @@ const Cars = () => {
             <p className="title">Wallpaper Repository</p>
 
             <div className="bar2">
-                <p className="subtitle">Cars Category</p>
+                <p className="subtitle">Car Category</p>
                 <Link to="/" className="link3">Go Back</Link>
             </div>
             
