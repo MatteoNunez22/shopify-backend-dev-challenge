@@ -12,7 +12,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.
 
 ### `yarn test`
 
@@ -28,3 +28,7 @@ Deploys the app to the firebase domain. Available at: https://test-project-1-283
 Before deploying, the app has to be built first using `yarn build`.
 
 ## Notes
+
+All images are stored in the cloud storage of the firebase project.
+
+Feature to upload images and view uploaded images is in development.
