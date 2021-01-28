@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Playfair Display;
+    src: url(../assets/fonts/PlayfairDisplay-Regular.ttf);
+}
+
+.main {
+    text-align: center;
+    background-color: #2E2E2E;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: fit-content;
+    font-family: Playfair Display;
+}
+
+.bar1 {
+    background-color: #212121;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.bar2 {
+    background-color: #212121;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    margin-bottom: 64px;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.subtitle {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.imageSize1 {
+    width: 50%;
+    margin-bottom: 64px;
+}
+
+.link1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.link2 {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.link3 {
+    color: #FFFFFF;
+    font-size: 20px;
+}

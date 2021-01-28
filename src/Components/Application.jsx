@@ -1,15 +1,19 @@
 import React from "react";
-// import { Router } from "@reach/router";
-import NavBar from "./NavBar";
+import { Router } from "@reach/router";
 import Homepage from "./Homepage";
-import Footer from "./Footer";
+import Cars from "./Cars";
+import Mountains from "./Mountains";
+import Sea from "./Sea";
 
 function Application() {
     return (
         <div>
-            <NavBar />
-            <Homepage />
-            <Footer />
+            <Router>
+                <Homepage path="/" />
+                <Cars path="cars" />
+                <Mountains path="mountains" />
+                <Sea path="sea" />
+            </Router>
         </div>
     );
 }
